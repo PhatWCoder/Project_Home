@@ -137,5 +137,5 @@ input {
 }
 
 .watch:hover {
-  transform: scale(0.9);
+  background: greenyellow;
 }
