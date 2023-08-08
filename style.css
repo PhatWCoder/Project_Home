@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Calligraffitti&family=Open+Sans:ital,wght@0,300;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --main-color: #e26e70;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-image: linear-gradient(
+    45deg,
+    rgb(65, 88, 208) 0%,
+    rgb(200, 80, 192) 50%,
+    rgb(255, 204, 112) 100%
+  );
+  font-family: "Poppins";
+}
+
+.toolbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 20px;
+  background: #333;
+}
+
+.logo1 {
+  width: 50px;
+  height: auto;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.logo1:hover {
+  transform: scale(1.4);
+}
+
+.toobar_text {
+  text-decoration: none;
+  margin: 0 40px;
+  color: white;
+  font-weight: bold;
+}
+
+.toobar_text:hover {
+  color: var(--main-color);
+}
+
+input {
+  border: 3px solid #333;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.search {
+  font-weight: bold;
+  background: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.search:hover {
+  background: gray;
+}
+
+.main-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 10px;
+}
+
+.logo2 {
+  width: 150px;
+  height: auto;
+}
+
+.main-page p {
+  font-weight: bold;
+  font-size: 50px;
+}
